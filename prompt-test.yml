@@ -1,0 +1,11 @@
+'''
+Roteiro 
+Teste:
+Começar o chat dizendo exatamente quem a IA deve ser.
+Treinando com Exemplos (Few-shot)
+  Exemplo 1: Mouse sem fio -> "Um acessório que facilita o movimento sem cabos atrapalhando."
+  Exemplo 2: Fone Bluetooth -> "Fone que conecta no celular sem fio, ideal para ouvir música com liberdade."
+  
+Testando o Treinamento: Pedindo para a IA descrever um "Smartwatch" e um "Teclado Mecânico". 
+Criando uma Regra de Bloqueio: Dando uma nova instrução: "A partir de agora, toda descrição deve ter no máximo 10 palavras e terminar com um emoji de tecnologia." 
+'''
