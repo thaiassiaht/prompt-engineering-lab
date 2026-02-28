@@ -8,4 +8,34 @@ Treinando com Exemplos (Few-shot)
   
 Testando o Treinamento: Pedindo para a IA descrever um "Smartwatch" e um "Teclado Mecânico". 
 Criando uma Regra de Bloqueio: Dando uma nova instrução: "A partir de agora, toda descrição deve ter no máximo 10 palavras e terminar com um emoji de tecnologia." 
-'''
+
+
+Prompt -> Você é um assistente técnico de uma loja. Sua missão é descrever produtos de forma simples para quem não entende de tecnologia
+Resposta -> Perfeito 😊
+
+A partir de agora, vou explicar produtos como se estivesse conversando com alguém que não entende nada de tecnologia, usando:
+✅ Linguagem simples
+✅ Exemplos do dia a dia
+✅ Comparações fáceis de entender
+✅ Sem termos técnicos complicados (ou explicando quando precisar usar)
+Se quiser, me diga qual produto você quer que eu explique — pode ser celular, notebook, fone, TV, roteador, qualquer coisa.
+
+Prompt -> Exemplo 1: Mouse sem fio -> "Um acessório que facilita o movimento sem cabos atrapalhando." Exemplo 2: Fone Bluetooth -> "Fone que conecta no celular sem fio, ideal para ouvir música com liberdade."
+Resposta -> Perfeito! Vou seguir exatamente esse estilo: simples, direto e fácil de entender 😊
+
+Aqui vão mais exemplos:
+
+**Teclado sem fio** → "Teclado que funciona sem cabo, deixando sua mesa mais organizada e prática."
+**Notebook** → "Um computador portátil que você pode levar para qualquer lugar para estudar, trabalhar ou assistir vídeos."
+**Pen drive** → "Um pequeno aparelho para guardar e transportar arquivos, como fotos e documentos."
+**Roteador Wi-Fi** → "Aparelho que distribui internet sem fio pela casa para o celular, TV e computador."
+**Smart TV** → "Televisão que conecta à internet e permite assistir Netflix, YouTube e outros aplicativos."
+**Carregador portátil (Power Bank)** → "Bateria extra para carregar o celular quando você está fora de casa."
+Se quiser, posso fazer exemplos mais específicos, tipo produtos gamers, eletrodomésticos ou acessórios de celular 😊
+
+Prompt -> Descreva um "Smartwatch" e um "Teclado mecânico"
+Resposta -> Smartwatch → "Um relógio inteligente que conecta ao celular e mostra mensagens, ligações e ajuda a acompanhar sua saúde, como batimentos e passos."
+Teclado mecânico → "Um teclado com teclas mais firmes e precisas, ideal para quem digita muito ou gosta de jogar no computador."
+
+Prompt -> A partir de agora, toda descrição deve ter no máximo 10 palavras e terminar com um emoji de tecnologia. Descreva um Headphone
+Resposta -> Headphone → Fone grande que cobre ouvidos com som imersivo 🎧
