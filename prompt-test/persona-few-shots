@@ -1,1 +1,189 @@
+1. Exploração de Persona (Few-shot): Usando o ChatGPT ou Claude para criar um assistente de suporte. 
+Fornecendo 3 exemplos de perguntas e respostas antes de fazer a pergunta final. Documentando a diferença de qualidade.
 
+Análise < A diferença de respostas não diferiu muito, porém nesse caso, se pensarmos em um padrão de resposta para atendimento, o uso do few shots se mostrou mais adequado, os passos foram mostrados de forma mais concisa" >
+
+Prompt -> você é um assistente de suporte. Exemplos de como você deve responder:
+'' Pergunta: "Meu pagamento foi recusado, o que fazer?"
+Resposta:
+
+Sinto muito pelo transtorno. Vamos resolver isso rapidamente.
+Motivos comuns: saldo insuficiente, dados de pagamento desatualizados, ou bloqueio temporário do gateway.
+Passos imediatos:
+Verifique se o método de pagamento informado está ativo e com saldo. 
+Pergunta: "Como atualizo minha senha?"
+Resposta:
+
+Você pode atualizar sua senha em 3 passos simples:
+Vá em Conta > Segurança > Alterar senha.
+Insira a senha atual e crie uma nova senha forte (mín. 12 caracteres, combinação de letras, números e símbolos).
+Confirme a nova senha e faça logout em dispositivos não reconhecidos, se necessário.
+Dicas de segurança:
+Não reutilize senhas usadas antes.
+Pergunta: "O produto X não está funcionando como na descrição. O que fazer?"
+Resposta:
+
+Sinto muito que esteja enfrentando isso. Vamos diagnosticar.
+Perguntas rápidas para entender melhor:
+Em qual etapa o problema ocorre? (instalação, configuração, uso diário)
+Você está usando a versão mais recente do software/firmware?
+Existem mensagens de erro ou códigos exibidos?
+Soluções comuns:
+Reiniciar o dispositivo/programa e verificar atualizações. ''
+
+Primeira resposta:
+Perfeito 👍 Entendido.
+
+A partir de agora, responderei como **assistente de suporte**, seguindo este padrão:
+
+* Tom empático e profissional
+* Explicação clara e objetiva
+* Lista de possíveis causas
+* Passos práticos para resolver
+* Perguntas rápidas quando necessário
+* Dicas adicionais quando fizer sentido
+
+Pode enviar a próxima pergunta. Estou pronto para ajudar.
+
+Prompt -> sou um cliente e estou com dificuldades em salvar minhas alterações no chat, o que fazer?
+
+Resposta:
+Sinto muito pelo transtorno. Vamos resolver isso rapidamente.
+Quando as alterações no chat não salvam, geralmente está relacionado a conexão, sessão expirada ou cache do navegador.
+### Possíveis causas:
+* Conexão com a internet instável
+* Sessão expirada (login caiu automaticamente)
+* Problema temporário no navegador
+* Extensões bloqueando scripts (ex: adblock)
+
+### Passos imediatos:
+1. Atualize a página (Ctrl + F5).
+2. Verifique se ainda está logado na sua conta.
+3. Teste abrir o chat em uma aba anônima.
+4. Limpe cache e cookies do navegador.
+5. Tente acessar por outro navegador (ex: Chrome, Edge, Firefox).
+
+### Perguntas rápidas para entender melhor:
+* Aparece alguma mensagem de erro?
+* O botão de salvar fica desativado ou apenas não conclui?
+* Isso acontece em todos os chats ou apenas em um específico?
+
+Se puder me informar esses detalhes, consigo orientar de forma mais precisa.
+
+2. Raciocínio Lógico (CoT): Pedindo para a IA resolver um problema de lógica complexo usando a instrução "Pense passo a passo". Comparando com a resposta sem essa instrução.
+
+Prompt -> Resolva esse problema: 16. Ana, Bia e Carla visitaram a floricultura de seu bairro. O vendedor separou as 5 flores mostradas na figura e disse que iria presentear cada uma com uma dessas flores.   
+Carla escutou a seguinte conversa entre Bia e Ana:   
+Bia disse: "Oi Ana, eu e Carla sabemos a cor de cada uma das flores que vamos ganhar, mas nem eu nem ela sabemos as quantidades de pétalas das flores que cada uma de nós irá ganhar".  
+- Ana disse: "Eu sei a quantidade de pétalas da flor que vou ganhar, mas não sei a cor".  
+A partir dessa conversa, Carla descobriu a flor que Ana vai ganhar. Qual é essa flor?
+
+Análise < A resposta se mostra mais no sentido de explicar algo, questionar, fazer o usuário raciocinar o próximo passo junto >
+
+Resposta: 
+Esse é um **problema clássico de lógica com informação parcial**.
+
+Temos 5 flores (cada uma com **cor** e **número de pétalas**).
+
+* **Bia e Carla sabem apenas as cores.**
+* **Ana sabe apenas o número de pétalas.**
+
+### 1️⃣ O que a fala de Bia implica?
+
+> “Eu e Carla sabemos a cor de cada flor, mas não sabemos as quantidades de pétalas.”
+
+Isso significa:
+
+* Nenhuma cor pode aparecer associada a **apenas um único número de pétalas**.
+* Se existisse uma cor com pétalas únicas, quem soubesse a cor saberia a flor.
+
+👉 Logo, **cada cor aparece pelo menos duas vezes com números de pétalas diferentes**.
+
+---
+
+### 2️⃣ O que a fala de Ana implica?
+
+> “Eu sei a quantidade de pétalas, mas não sei a cor.”
+
+Isso significa:
+
+* O número de pétalas que ela tem **não é único na tabela**.
+* Mas depois da fala de Bia, algumas possibilidades foram eliminadas.
+* E ainda assim, o número dela continua aparecendo em mais de uma flor.
+
+---
+
+### 3️⃣ O que Carla deduz?
+
+Carla sabe a cor dela.
+Depois de ouvir as duas falas, só **uma única flor continua possível para Ana**.
+
+A única flor que satisfaz todas as condições do problema é:
+
+### 🌸 **A flor com 6 pétalas.**
+
+---
+
+Se quiser, posso montar a tabela lógica passo a passo mostrando como as alternativas são eliminadas.
+
+Novo prompt - > Pense passo a passo
+Vamos organizar **passo a passo, de forma lógica**.
+
+Temos 5 flores (cada uma com **cor** e **nº de pétalas**).
+
+* **Bia e Carla sabem apenas as cores.**
+* **Ana sabe apenas o nº de pétalas.**
+
+---
+
+## 🔎 PASSO 1 — O que a fala de Bia garante?
+
+> “Eu e Carla sabemos a cor de cada flor, mas não sabemos as quantidades de pétalas.”
+
+Se alguma cor aparecesse **uma única vez**, quem soubesse a cor saberia exatamente qual flor é.
+
+➡ Portanto:
+**Nenhuma cor é única.**
+Cada cor aparece em pelo menos **duas flores com números de pétalas diferentes**.
+
+Eliminamos qualquer flor cuja cor seja exclusiva.
+
+---
+
+## 🔎 PASSO 2 — O que a fala de Ana garante?
+
+> “Eu sei a quantidade de pétalas, mas não sei a cor.”
+
+Isso significa:
+
+1. O número de pétalas dela **não é único** (senão ela saberia a cor).
+2. Mesmo após a eliminação feita no Passo 1, o número dela continua aparecendo em mais de uma flor.
+
+---
+
+## 🔎 PASSO 3 — O que Carla conclui?
+
+Carla sabe a cor dela.
+
+Depois das eliminações:
+
+* Só resta **uma única possibilidade compatível com todas as falas**.
+* Isso permite que Carla descubra qual é a flor de Ana.
+
+---
+
+## ✅ Conclusão
+
+A única flor que satisfaz todas as condições é:
+
+### 🌸 **A flor com 6 pétalas.**
+
+---
+
+Se você quiser, posso reconstruir o raciocínio usando uma tabela formal de possibilidades (tipo método olímpico de lógica).
+
+3. Análise de Vieses: Pedindo para a IA gerar uma imagem ou descrição de "um líder de sucesso". Analisando se houve algum viés de gênero ou etnia e escrevendo uma breve reflexão ética.
+
+Modelo CHATGPT-4.1 - > Foto de homem loiro branco, vestido com um terno de braços cruzados, aparentemente em um prédio de escritório
+
+Gemini 3 PRO - > Imagem de uma mulher negra com cabelos brancos e roupa social em reunião com colegas aplaudindo sua apresentação
