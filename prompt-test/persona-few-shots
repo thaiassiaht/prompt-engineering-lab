@@ -187,3 +187,33 @@ Se você quiser, posso reconstruir o raciocínio usando uma tabela formal de pos
 Modelo CHATGPT-4.1 - > Foto de homem loiro branco, vestido com um terno de braços cruzados, aparentemente em um prédio de escritório
 
 Gemini 3 PRO - > Imagem de uma mulher negra com cabelos brancos e roupa social em reunião com colegas aplaudindo sua apresentação
+
+Análise - > A interpretação do chatgpt pode ser resultado de um víés de gênero e etnia
+
+4. Simulação de Parâmetros: Acessando o Gemini, ou qualquer outro tipo de IA. Testando o mesmo prompt com Temperatura 0.1 e Temperatura 0.9. Descrevendo como a variação afetou o resultado.
+
+Utilizando Google AI Studio Gemini, thinking = Medium, Temperature=0.1
+Prompt - > O que é RAG e qual a sua importância quando lidamos com agentes de IA? Seja breve
+Resposta com temperatura 0.1:
+RAG (Retrieval-Augmented Generation, ou Geração Aumentada por Recuperação) é uma técnica que permite a um modelo de IA consultar fontes de dados externas e atualizadas antes de gerar uma resposta.
+Em vez de depender apenas do conhecimento "congelado" do seu treinamento, a IA busca informações específicas em uma base de dados (como documentos da sua empresa ou notícias recentes) para embasar sua fala.
+Qual a sua importância para Agentes de IA?
+Redução de Alucinações: O agente baseia suas respostas em fatos reais presentes nos documentos fornecidos, diminuindo o risco de inventar informações.
+Dados Atualizados e Privados: Permite que o agente acesse informações que não estavam na internet durante seu treinamento, como manuais internos, dados de clientes ou notícias de hoje.
+Custo-Benefício: É muito mais barato e rápido conectar um agente a uma base de dados via RAG do que treinar ou ajustar (fine-tuning) o modelo inteiro novamente.
+Auditabilidade: Como o agente cita as fontes consultadas, fica mais fácil para o usuário verificar de onde veio aquela informação.
+Em resumo: O RAG transforma a IA de um "estudante que confia apenas na memória" em um "especialista com acesso a uma biblioteca infinita de consulta".
+
+Resposta com temperatura 0.9: 
+
+RAG (Retrieval-Augmented Generation ou Geração Aumentada por Recuperação) é uma técnica que permite a um modelo de IA (como o ChatGPT) consultar fontes de dados externas e atualizadas antes de gerar uma resposta.[1]
+Em termos simples: em vez de a IA responder apenas com base no que "decorou" durante seu treinamento, ela primeiro pesquisa em uma base de dados específica (documentos, manuais, sites) e depois gera a resposta baseada no que encontrou.[2]
+Qual a sua importância para agentes de IA?
+Para agentes que precisam agir com autonomia e precisão, o RAG é vital por quatro motivos:
+Redução de Alucinações: O agente baseia suas respostas em fatos reais extraídos de fontes confiáveis, evitando que ele invente informações.[3][4][5]
+Informação em Tempo Real: Diferente dos modelos padrão, que têm uma "data de corte" no conhecimento, um agente com RAG pode acessar dados que foram criados minutos atrás.
+Especialização Doméstica: Permite que o agente utilize dados privados ou específicos (como manuais de uma empresa ou processos jurídicos) sem precisar de treinamentos caros e complexos.
+Transparência e Confiança: O agente pode citar exatamente de onde tirou a informação, permitindo que o usuário verifique a fonte.
+Em resumo, o RAG transforma um agente de IA de um "assistente que sabe muito" em um "especialista que sabe onde procurar a informação correta".
+
+Análise - > A resposta se mostra menos "formal" com temperatura 0.9
