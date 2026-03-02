@@ -217,3 +217,4 @@ Transparência e Confiança: O agente pode citar exatamente de onde tirou a info
 Em resumo, o RAG transforma um agente de IA de um "assistente que sabe muito" em um "especialista que sabe onde procurar a informação correta".
 
 Análise - > A resposta se mostra menos "formal" com temperatura 0.9
+Quando eu usaria -> Usaria a temperatura mais baixa em casos que preciso de mais seriedade, mais consistente. Ex: Escrita de regras. Usaria a temperatura mais alta quando fosse um contexto mais criativo, mais informal. Ex: Escrita criativa, jogos
